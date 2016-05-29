@@ -1,0 +1,32 @@
+OpenEmbedded/Yocto Project layer for Elixir support
+===================================================
+
+This is work in progress and in a very early alpha stage...
+
+This layer provides support for Elixir for use with OpenEmbedded and/or
+Yocto Project build system:
+
+This layer depends on:
+
+URI: git://github.com/joaohf/meta-erlang.git
+branch: master
+revision: HEAD
+
+URI: git://github.com/openembedded/oe-core.git
+branch: master
+revision: HEAD
+
+Contributing
+------------
+
+Github pull requests are welcome.
+
+Usage instructions
+------------------
+
+For conf/bblayers.conf you have to add
+
+BBLAYERS ?= " \
+   ...
+  path_to_source/sources/meta-elixir \
+  "
