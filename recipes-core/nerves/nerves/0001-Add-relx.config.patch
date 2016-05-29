@@ -1,0 +1,20 @@
+From b1c0ad310903cf068ca972a1b90d5e4a899f6b1d Mon Sep 17 00:00:00 2001
+From: Christian Taedcke <hacking@taedcke.com>
+Date: Sun, 22 May 2016 11:28:46 +0200
+Subject: [PATCH 1/2] Add relx.config
+
+---
+ rel/relx.config | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 rel/relx.config
+
+diff --git a/rel/relx.config b/rel/relx.config
+new file mode 100644
+index 0000000..062353c
+--- /dev/null
++++ b/rel/relx.config
+@@ -0,0 +1 @@
++[{include_erts, false}].
+-- 
+2.5.5
+
